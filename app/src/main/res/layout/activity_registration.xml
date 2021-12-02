@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Linear Layout with vertical orientation and other properties -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http:// schemas.android.com/apk/res-auto"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http:// schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6CAC4"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:paddingBottom="20dp"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="131dp"
+        android:paddingBottom="5dp"
+        app2:srcCompat="@drawable/cake"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- TextView for heading -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/refita"
+        android:text="Register"
+        android:textColor="#3a1909"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/refita"
+        android:paddingBottom="25dp"
+        android:text="New user? Sign up now!"
+        android:textColor="#3a1909"
+        android:textSize="20sp" />
+
+    <!-- Edit text for email -->
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/times_sans_serif"
+        android:hint="Email" />
+
+    <!-- Edit text for password -->
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/times_sans_serif"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <!-- Button for register with text "Register" -->
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="Register"
+        android:textFontWeight="700" />
+
+    <Button
+        android:id="@+id/redirect_login"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="Existing account?"
+        android:textFontWeight="700" />
+
+    <!-- ProgressBar for loading time -->
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</LinearLayout>
+

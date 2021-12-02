@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Linear Layout with vertical orientation and other properties -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6CAC4"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+    <!-- TextView for heading -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="131dp"
+        android:paddingBottom="5dp"
+        app:srcCompat="@drawable/cake"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/refita"
+        android:text="Login"
+        android:textColor="#3a1909"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/refita"
+        android:paddingBottom="25dp"
+        android:text="Sign in to earn rewards!"
+        android:textColor="#3a1909"
+        android:textSize="20sp" />
+
+    <!-- Edit text for email -->
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/times_sans_serif"
+        android:hint="@string/enter_email" />
+
+    <!-- Edit text for password -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/times_sans_serif"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword" />
+
+    <!-- Button for Login with text "Login" -->
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="Login"
+        android:textFontWeight="700" />
+
+    <Button
+        android:id="@+id/redirect_signup"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="New user?"
+        android:textFontWeight="700" />
+
+    <!-- ProgressBar for Loading Time -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

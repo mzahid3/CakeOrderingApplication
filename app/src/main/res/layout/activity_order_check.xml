@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6CAC4"
+    tools:context=".OrderCheckActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/muffin" />
+
+    <TextView
+        android:id="@+id/textView_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/refita"
+        android:paddingBottom="10dp"
+        android:text="Review your order:"
+        android:textColor="#3a1909"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="You selected"
+        android:textAlignment="center"
+        android:textColor="#3a1909"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_review" />
+
+    <TextView
+        android:id="@+id/textView_cake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:hint="Cake type"
+        android:textAlignment="center"
+        android:textColor="#3a1909"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_selection" />
+
+    <TextView
+        android:id="@+id/textView_frosting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="Frosting type"
+        android:textAlignment="center"
+        android:textColor="#3a1909"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_cake" />
+
+    <TextView
+        android:id="@+id/textView_frostview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:hint="frosting_name"
+        android:paddingBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="#3a1909"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_frosting" />
+
+    <TextView
+        android:id="@+id/textView_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:paddingBottom="5dp"
+        android:text="Continue?"
+        android:textAlignment="center"
+        android:textColor="#3a1909"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_frostview" />
+
+    <Button
+        android:id="@+id/button_no"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="No"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_continue" />
+
+    <Button
+        android:id="@+id/button_yes"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/times_sans_serif"
+        android:text="Yes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/button_no"
+        app:layout_constraintTop_toBottomOf="@+id/textView_continue" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

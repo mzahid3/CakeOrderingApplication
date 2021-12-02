@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "906890522557",
+    "project_id": "cakeorderingapp-dd7a1",
+    "storage_bucket": "cakeorderingapp-dd7a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906890522557:android:587e5f511b46d82d29acd4",
+        "android_client_info": {
+          "package_name": "com.example.cakeorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906890522557-sb9430lefk0mdrjfj69f7otqrtpc0571.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cakeorderingapp",
+            "certificate_hash": "ca715443309cdd6d64e93801c07920553e4f3340"
+          }
+        },
+        {
+          "client_id": "906890522557-gl7uoo0f0pl3do9kpqcnspar7is7r4cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnr4HOkLKyWF2x14PuCzvVGmLtWMy6XYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906890522557-gl7uoo0f0pl3do9kpqcnspar7is7r4cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
