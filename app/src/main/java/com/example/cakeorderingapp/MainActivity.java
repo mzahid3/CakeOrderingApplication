@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//This is the final Project and this
+// is an APP which you use for ordering a Cake with frosting.
+// Also this have login feature and account creation as well.
 public class MainActivity extends AppCompatActivity  {
 
 

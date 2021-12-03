@@ -16,7 +16,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
+//This is the final Project and this
+// is an APP which you use for ordering a Cake with frosting.
+// Also this have login feature and account creation as well.
 public class RegistrationActivity extends AppCompatActivity {
 
     private EditText emailText, passwordText;

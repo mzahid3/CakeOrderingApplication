@@ -1,5 +1,7 @@
 package com.example.cakeorderingapp;
-
+//This is the final Project and this
+// is an APP which you use for ordering a Cake with frosting.
+// Also this have login feature and account creation as well.
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
@@ -72,7 +74,7 @@ public class MapsActivity extends AppCompatActivity implements LocationListener 
                         Toast.makeText(MapsActivity.this, "No Apps to handle maps request", Toast.LENGTH_SHORT).show();
                     }
                 } else {
-                    Toast.makeText(MapsActivity.this, "Something went wrong, intent is null", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MapsActivity.this, "error", Toast.LENGTH_SHORT).show();
                 }
             }
         });

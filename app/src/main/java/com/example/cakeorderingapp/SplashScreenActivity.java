@@ -7,7 +7,9 @@ import android.os.Handler;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//This is the final Project and this
+// is an APP which you use for ordering a Cake with frosting.
+// Also this have login feature and account creation as well.
 public class SplashScreenActivity extends AppCompatActivity {
 
     private static int SPLASH_SCREEN_TIME_OUT=2000;

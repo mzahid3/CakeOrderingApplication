@@ -1,5 +1,7 @@
 package com.example.cakeorderingapp;
-
+//This is the final Project and this
+// is an APP which you use for ordering a Cake with frosting.
+// Also this have login feature and account creation as well.
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
