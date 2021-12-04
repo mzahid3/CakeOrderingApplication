@@ -50,7 +50,7 @@
         android:layout_height="33dp"
         android:layout_marginTop="33dp"
         android:fontFamily="@font/times_sans_serif"
-        android:text="Estimated pick-up time: 30 min"
+        android:text="Estimated pick-up time:"
         android:textAlignment="center"
         android:textColor="#3a1909"
         android:textSize="25sp"

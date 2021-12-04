@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_login.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_maps.xml" value="0.2653985507246377" />
         <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_maps2.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_order_check.xml" value="0.20260416666666667" />
-        <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_order_completed.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_order_completed.xml" value="0.1" />
+        <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_registration.xml" value="0.2653985507246377" />
         <entry key="..\:/Users/naveed.zahid/Desktop/AndroidStudioProjects/CakeOrderingApp/app/src/main/res/layout/activity_splash.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/naveed.zahid/Documents/app/src/main/res/layout/activity_frosting_option.xml" value="0.2907608695652174" />
         <entry key="..\:/Users/naveed.zahid/Documents/app/src/main/res/layout/activity_login.xml" value="0.20260416666666667" />
